@@ -1,5 +1,5 @@
 {% set name = "moyopy" %}
-{% set version = "0.4.3" %}
+{% set version = "0.4.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,13 +7,13 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/moyopy-{{ version }}.tar.gz
-  sha256: 29cd66b4e9846dd583db790453796a5b1048969acfd83b28b7fcd6457fbce9d4
+  sha256: 8c49026064365766c5352e70697efd3feab3abc4c6909733ac0f5b72aabda7d5
 
 build:
   script:
     - {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
     - cargo-bundle-licenses --format yaml --output THIRDPARTY.yml
-  number: 1
+  number: 0
 
 requirements:
   build:
