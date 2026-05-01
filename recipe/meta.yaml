@@ -1,5 +1,5 @@
 {% set name = "moyopy" %}
-{% set version = "0.7.9" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/moyopy-{{ version }}.tar.gz
-  sha256: fea20b2e3de96047d9622668453074553a9f9d73d0075bb5b5aba34ea897eb22
+  sha256: da740795c3a4fc16963fa2d4c72d413220a4a8f1851cd6c13da7e226d348334a
 
 build:
   script:
