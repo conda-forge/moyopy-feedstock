@@ -45,7 +45,9 @@ tests:
 about:
   summary: Python binding of Moyo
   license: MIT
-  license_file: LICENSE-MIT
+  license_file:
+  - LICENSE-MIT
+  -  THIRDPARTY.yml
   homepage: https://github.com/spglib/moyo
 
 extra:
