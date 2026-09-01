@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.17.0"
+  version: "0.18.0"
 
 package:
   name: moyopy
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/m/moyopy/moyopy-${{ version }}.tar.gz
-  sha256: 49b46dd2cba89d84d6ef9d8e3cb7cffa45e9898a57ef3d6b54d0dc820dff170e
+  sha256: d6177d84788396b603d2116a60c2be58b0726d971d4120b8d3093838c85f2b7c
 
 build:
   number: 0
@@ -46,8 +46,8 @@ about:
   summary: Python binding of Moyo
   license: MIT
   license_file:
-  - LICENSE-MIT
-  -  THIRDPARTY.yml
+    - LICENSE-MIT
+    - THIRDPARTY.yml
   homepage: https://github.com/spglib/moyo
 
 extra:
