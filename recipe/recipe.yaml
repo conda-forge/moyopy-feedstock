@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.20.0"
+  version: "0.21.0"
 
 package:
   name: moyopy
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/m/moyopy/moyopy-${{ version }}.tar.gz
-  sha256: c6bcba5dd9e56cbab1f873e95e6e7dd558896f5dc94f71581c51bb17b8fed909
+  sha256: cb58e49508c78bf9de6ab5af8b5adb1e09f6315df4c3f7fd5f815d9f84192f69
 
 build:
   number: 0
